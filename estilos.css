@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  
+}
+
+header {
+  padding: 6px;
+  background-color: rgb(0, 179, 179);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+}
+
+header h1 {
+  font-size: 50px;
+  color: azure;
+  font-family: 'Castoro Titling', cursive;
+  text-align: center;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-imagen1{
+  height: 135px;
+  width: 170px;
+  margin-right: 20px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: bisque;
+  
+}
+
+nav a {
+  float: left;
+  display: flex;
+  color: rgb(138, 163, 160);
+  margin-right: 15px;
+  padding: 11px 20px;
+}
+
+nav a:hover{
+  color: brown;
+}
+
+body{
+  margin: 0; 
+  /*Como hago para que el header ocupe todo el ancho de pantalla, sin usar esto?*/
+  background-color: rgb(235, 235, 235);
+  min-height: 10%;
+}  
+
+
+.row{
+  margin-left: 10px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside.leftcolumn{
+  float: left;
+  width: 20%;
+}
+
+section.rightcolumn{
+  float: left;
+  width: 75%;
+  padding-left: 25px;
+}
+
+.card{
+  background-color: white;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.footer{
+  padding: 9px;
+  text-align: center;
+  background: rgb(202, 202, 202);
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
